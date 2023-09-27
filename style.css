@@ -1,0 +1,33 @@
+table{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.arg{
+    color: rgb(250, 176, 111);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: xx-large;
+    background-color: rgb(194, 189, 189);
+    text-align: center;
+    font-size: 70px;
+    font-family: Calibri, sans-serif;
+}
+
+.saltaTit{
+    font-family: 'Creepster', cursive;
+    font-size: x-large;
+    background-color: rgba(255,229,153,255);
+    text-align: center;
+    justify-content: center;
+
+}
+.salta{
+    background-color: rgba(255,229,153,255);
+    text-align: left;
+    justify-content: center;
+}
+
+.mendozaTit{
+
+}
