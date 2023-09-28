@@ -1,8 +1,18 @@
 table{
     justify-content: center;
     text-align: center;
-    
+    border-collapse: collapse;
 }
+
+.checkbox3{
+    list-style-type: none;
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+  }​
 
 .arg{
     color: rgb(250, 176, 111);
@@ -14,20 +24,46 @@ table{
     font-family: Calibri, sans-serif;
 }
 
-.saltaTit{
+.Tit{
     font-family: 'Creepster', cursive;
     font-size: x-large;
-    background-color: rgba(255,229,153,255);
     text-align: center;
     justify-content: center;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
 
 }
+
+.IMG{
+    background-color: black;
+}
+
 .salta{
     background-color: rgba(255,229,153,255);
     text-align: left;
     justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
 
-.mendozaTit{
+.mdz{
+    background-color: rgba(189,214,238,255);
+    text-align: left;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
 
+.nqn{
+    background-color: rgba(197,224,179,255);
+    text-align: left;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.form{
+    text-align: center;
+    justify-content: center;
+    
 }
