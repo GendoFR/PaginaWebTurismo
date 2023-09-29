@@ -18,13 +18,11 @@
 </head>
 <body>
 
-<h1>
-
-</h1>
 <div class = "container" >
+    <form action="mailto:iago.agustin.almiron@gmail.com" mthod0="post">
     <table>
-        <tr class="arg"> 
-            <td colspan="5"> ARGENTINA</td>
+        <tr> 
+            <td colspan="5"> <p class = "Arg">ARGENTINA</p></td>
         </tr>
         <tr class="salta">
             <td><INPUT TYPE="checkbox" NAME="salta0"></td>
@@ -39,7 +37,7 @@
                 
             </td>
             <td> 
-                <ul class = "checkbox3">
+                <ul class = "noPunto">
                     <li><INPUT TYPE="checkbox" NAME="salta1"></li>
                     <li><INPUT TYPE="checkbox" NAME="salta2"></li>
                     <li><INPUT TYPE="checkbox" NAME="salta3"></li>
@@ -58,7 +56,7 @@
                   </ul>
             </td>
             <td> 
-                <ul class = "checkbox3">
+                <ul class = "noPunto">
                     <li><INPUT TYPE="checkbox" NAME="salta1"></li>
                     <li><INPUT TYPE="checkbox" NAME="salta2"></li>
                     <li><INPUT TYPE="checkbox" NAME="salta3"></li>
@@ -77,32 +75,31 @@
                   </ul>
             </td>
             <td> 
-                <ul class = "checkbox3">
+                <ul class = "noPunto">
                     <li><INPUT TYPE="checkbox" NAME="salta1"></li>
                     <li><INPUT TYPE="checkbox" NAME="salta2"></li>
                     <li><INPUT TYPE="checkbox" NAME="salta3"></li>
                 </ul>
             </td>
         </tr>
-        <tr class = "form">
-            <td>
-                <label>Nombre</label>
-                <BR><INPUT TYPE="text" NAME="Nombre">
-                </FORM>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                APELLIDO<BR><INPUT TYPE="text" NAME="Apellido">
-                </FORM>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                FORMA DE PAGO<INPUT TYPE="checkbox" NAME="efec"> Efectivo <INPUT TYPE="checkbox" NAME="trj"> Tarjeta
+        <tr class="ingresoUsuario" >
+            <td class = noPunto colspan="5">
+                <li>
+                    <label class="ingresos">Nombre</label>
+                    <INPUT class = "form" TYPE="text" NAME="NOMBRE"></li>
+                <li>
+                    <label>Apellido</label>
+                    <INPUT class = "form" TYPE="text" NAME="Apellido"></li>
+                <li>
+                    <label>FORMA DE PAGO</label>
+                    <INPUT TYPE="checkbox" NAME="efec"> Efectivo <INPUT TYPE="checkbox" NAME="trj"> Tarjeta</li>
+                <li>
+                    <button>ENVIAR</button>
+                </li>
             </td>
         </tr>
     </table>
+</form>
 </div>
 <p></p>
 

@@ -4,20 +4,22 @@ table{
     border-collapse: collapse;
 }
 
-.checkbox3{
+.noPunto{
     list-style-type: none;
+
 }
 
 label {
     display: inline-block;
     width: 140px;
     text-align: left;
-  }​
-
-.arg{
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.Arg{
     color: rgb(250, 176, 111);
     text-shadow: black 0.1em 0.1em 0.2em;
-    font-size: xx-large;
     background-color: rgb(194, 189, 189);
     text-align: center;
     font-size: 70px;
@@ -31,6 +33,7 @@ label {
     justify-content: center;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
+    width: 60%;
 
 }
 
@@ -62,8 +65,28 @@ label {
     border-bottom: 1px solid black;
 }
 
+
 .form{
     text-align: center;
     justify-content: center;
-    
+    width: 30%;
+    border: 1px solid #00FF00;
+}
+
+.ingresoUsuario{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
 }
